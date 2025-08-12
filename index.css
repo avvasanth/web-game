@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+    text-align: center;
+    width: 350px;
+    border: 1px solid cyan;
+}
+
+h2 {
+    color: cyan;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+p {
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    padding: 12px;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid cyan;
+    border-radius: 8px;
+    background: black;
+    color: cyan;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+button {
+    background-color: cyan;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(94, 241, 241), 0 0 30px cyan;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00e6e6;
+    box-shadow: 0 0 25px cyan, 0 0 50px cyan;
+}
+
+#msg {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(69, 238, 69);
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(68, 228, 68);
+}
